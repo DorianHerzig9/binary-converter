@@ -23,10 +23,14 @@ Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärco
 | 1    |      muss       |  F   | Als ein Benutzer möchte ich eine Dezimalzahl in das Binärformat umwandeln können. |
 | 2    |      muss       |  F   | Als ein Benutzer möchte ich sicherstellen, dass das Programm nur mit Nummern funktioniert, um Fehler bei der Umwandlung zu vermeiden. |
 | 3    |      muss       |  F   | Als ein Benutzer möchte ich die Möglichkeit haben, Normale Zahlen oder minuszahl in Binärcode umzuwandeln. |
-| 4    |      muss       |  F   | Als ein Benutzer möchte ich sicherstellen, dass das Programm auch mit negativen Zahlen umgehen kann. |
-| 5    |      kann       |  Q   | Das Programm kann eine Fehlermeldung anzeigen, wenn die Eingabe keine gültige Zahl ist, um Benutzer über fehlerhafte Eingaben zu informieren. |
-| 6    |      muss       |  F   | Als ein Benutzer möchte ich die Fähigkeit haben, Binärcodes auch in normale Zahlen umzuwandeln, sodass ich diese wieder lesen kann. |
-| 7    |      kann       |  Q   | Das Programm kann eine Fehlermeldung anzeigen, wenn die Eingabe keine gültige Binär- oder Dezimalzahl ist, um Benutzer über fehlerhafte Eingaben zu informieren. |
+| 4    |      kann       |  Q   | Das Programm kann eine Fehlermeldung anzeigen, wenn die Eingabe keine gültige Zahl ist, um Benutzer über fehlerhafte Eingaben zu informieren. |
+| 5    |      muss       |  F   | Als ein Benutzer möchte ich die Fähigkeit haben, Binärcodes auch in normale Zahlen umzuwandeln, sodass ich diese wieder lesen kann. |
+
+| Typ | Erklärung  |
+| --- | ------------ |
+|  F  |  Für das Funktionale des Programmes                         |
+|  Q  |  Für die Qualität des Programmes                             |
+|  R  |  Randbedingungen (müssen nicht implementiert werden)         |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
