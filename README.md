@@ -22,7 +22,7 @@ Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärco
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss       |  F   | Als ein Benutzer möchte ich eine Dezimalzahl in das Binärformat umwandeln können. |
 | 2    |      muss       |  F   | Als ein Benutzer möchte ich sicherstellen, dass das Programm nur mit Nummern funktioniert, um Fehler bei der Umwandlung zu vermeiden. |
-| 3    |      muss       |  F   | Als ein Benutzer möchte ich die Möglichkeit haben, Normale Zahlen oder minuszahl in Binärcode umzuwandeln. |
+| 3    |      muss       |  F   | Als ein Benutzer möchte ich die Möglichkeit haben, normale Zahlen oder Minuszahl in Binärcode umzuwandeln. |
 | 4    |      kann       |  Q   | Das Programm kann eine Fehlermeldung anzeigen, wenn die Eingabe keine gültige Zahl ist, um Benutzer über fehlerhafte Eingaben zu informieren. |
 | 5    |      muss       |  F   | Als ein Benutzer möchte ich die Fähigkeit haben, Binärcodes auch in normale Zahlen umzuwandeln, sodass ich diese wieder lesen kann. |
 
