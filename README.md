@@ -1,22 +1,21 @@
 # binary-converter
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Lorenzo Lai, Cyril Lutziger, Dorian Herzig, Simon Veljkovic
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 01.03.2024 | 0.0.0 | Wir haben noch den Auftrag 1303 vervollständigt. |
+| 08.03.2024 | 0.0.1 | Wir haben unser Projekt begonnen. |
+| 15.03.2024 | 1.0.0 |                                                              |
+| 22.03.2024 |       |                                                              |
+| 05.04.2024 |       |                                                              |
+| 26.04.2024 |       |                                                              |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
-
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
+Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärcodes umzuwandeln und umgekehrt.
 
 ### 1.2 User Stories
 
