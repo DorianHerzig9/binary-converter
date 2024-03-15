@@ -6,7 +6,7 @@ Lorenzo Lai, Cyril Lutziger, Dorian Herzig, Simon Veljkovic
 | ----- | ------- | ------------------------------------------------------------ |
 | 01.03.2024 | 0.0.0 | Wir haben noch den Auftrag 1303 vervollständigt. |
 | 08.03.2024 | 0.0.1 | Wir haben unser Projekt begonnen. |
-| 15.03.2024 | 1.0.0 |                                                              |
+| 15.03.2024 | 0.1.0 | Wir haben heute angefangen, Handlungsziel 2 bzw. 4 zu überarbeiten. |
 | 22.03.2024 |       |                                                              |
 | 05.04.2024 |       |                                                              |
 | 26.04.2024 |       |                                                              |
