@@ -6,7 +6,7 @@ Lorenzo Lai, Cyril Lutziger, Dorian Herzig, Simon Veljkovic
 | ----- | ------- | ------------------------------------------------------------ |
 | 01.03.2024 | 0.0.0 | Wir haben noch den Auftrag 1303 vervollständigt. |
 | 08.03.2024 | 0.0.1 | Wir haben unser Projekt begonnen. |
-| 15.03.2024 | 0.1.0 | Wir haben heute angefangen, Handlungsziel 2 bzw. 4 zu überarbeiten. |
+| 15.03.2024 | 0.1.0 | Wir haben die ersten User Stories umgesetzt. |
 | 22.03.2024 |       |                                                              |
 | 05.04.2024 |       |                                                              |
 | 26.04.2024 |       |                                                              |
@@ -22,7 +22,7 @@ Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärco
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss       |  F   | Als ein Benutzer möchte ich eine Dezimalzahl in das Binärformat umwandeln können. |
 | 2    |      muss       |  F   | Als ein Benutzer möchte ich sicherstellen, dass das Programm nur mit Nummern funktioniert, um Fehler bei der Umwandlung zu vermeiden. |
-| 3    |      muss       |  F   | Als ein Benutzer möchte ich die Möglichkeit haben, normale Zahlen oder Minuszahl in Binärcode umzuwandeln. |
+| 3    |      muss       |  F   | Als ein Benutzer möchte ich die Möglichkeit haben, positive Zahlen oder Minuszahlen in Binärcode umzuwandeln. |
 | 4    |      kann       |  Q   | Das Programm kann eine Fehlermeldung anzeigen, wenn die Eingabe keine gültige Zahl ist, um Benutzer über fehlerhafte Eingaben zu informieren. |
 | 5    |      muss       |  F   | Als ein Benutzer möchte ich die Fähigkeit haben, Binärcodes auch in normale Zahlen umzuwandeln, sodass ich diese wieder lesen kann. |
 
@@ -32,46 +32,43 @@ Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärco
 |  Q  |  Für die Qualität des Programmes                             |
 |  R  |  Randbedingungen (müssen nicht implementiert werden)         |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Programm gestartet | Zahl | Zahl als Binärcode |
+| 2.1  | Programm gestartet | Buchstabe | Bitte nur Zahlen |
+| 3.1  | Programm gestartet | Positive oder negative Zahl | Zahl als Binärcode |
+| 4.1  | Programm gestartet | Zahl mit Buchstabe (z.B. 1a) | Bitte nur Zahlen |
+| 5.1  | Programm gestartet | Binärcode | positive oder negative Zahl |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 10 Anwendungsfällen ein; und einen PAP.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 15.03.2024 | Lorenzo Lai | Zahl zu Binärcode Funktion implementieren | 60 Minuten |
+| 2.A  | 22.03.2024 | Simon Veljkovic | Fehlermeldungen implememtieren | 60 Minuten |
+| 3.A  | 05.04.2024 | Cyril Lutziger | Funktion zum Minuszahlen und Kommazahlen in Binärcode umwandeln implementieren. | 90 Minuten |
+| 4.A  | 05.04.2024 | Dorian Herzig | Binärcode zu Zahl Funktion implementieren | 90 Minuten |
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 4 Arbeitspakete
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Dieses Projekt dient hauptsächlich dazu, unser Wissen über Binärcodes in ein Programm umzusetzen und anhand der passenden User Stories dürfte ein gutes Programm machbar sein.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 15.03.2024 | Lorenzo Lai | 60 Minuten | 60 Minuten |
+| 2.A  | 22.03.2024 | Simon Veljkovic | 60 Minuten | 90 Minuten |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
@@ -82,19 +79,5 @@ Total:
 | 1.1  |       |          |        |
 | ...  |       |          |        |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-### 5.2 Exploratives Testen
 
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
-
-:)
