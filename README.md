@@ -86,6 +86,3 @@ Dieses Projekt dient hauptsächlich dazu, unser Wissen über Binärcodes in ein 
 | 5.A  |  26.04.24     |     Lorenzo Lai / Cyril Lutziger     |    OK    |
 
 3.A: Wir haben mehrmals versucht und recherchiert, wie man negative und Kommazahlen konvertieren kann, aber es ist uns nicht ganz gelungen. Wir haben es auch mit ChatGPT versucht, und es hat mehr oder weniger funktioniert, aber der Code wurde sehr lang, und wir konnten selbst nichts verstehen; deswegen haben wir ihn nicht implementiert.
-
-
-## 6 Auswerten
