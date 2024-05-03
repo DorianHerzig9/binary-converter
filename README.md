@@ -51,10 +51,11 @@ Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärco
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 15.03.2024 | Lorenzo Lai | Zahl zu Binärcode Funktion implementieren | 60 Minuten |
-| 2.A  | 22.03.2024 | Simon Veljkovic | Fehlermeldungen implememtieren | 60 Minuten |
-| 3.A  | 05.04.2024 | Cyril Lutziger | Funktion zum Minuszahlen und Kommazahlen in Binärcode umwandeln implementieren. | 90 Minuten |
-| 4.A  | 05.04.2024 | Dorian Herzig | Binärcode zu Zahl Funktion implementieren | 90 Minuten |
+| 1.A  | 15.03.2024 | Lorenzo Lai | Zahl zu Binärcode Funktion implementieren | 180' |
+| 2.A  | 22.03.2024 | Simon Veljkovic | Fehler werden nicht akzeptiert | 60' |
+| 3.A  | 29.04.2024 | Cyril Lutziger | Funktion zum Minuszahlen und Kommazahlen in Binärcode umwandeln implementieren. | 300+' |
+| 4.A  | 05.04.2024 | Lorenzo Lai / Cyril Lutziger | Fehlermeldung implementieren | 30' |
+| 5.A  | 05.04.2024 | Dorian Herzig | Binärcode zu Zahl Funktion implementieren | 240' |
 
 Total: 4 Arbeitspakete
 
@@ -76,10 +77,15 @@ Dieses Projekt dient hauptsächlich dazu, unser Wissen über Binärcodes in ein 
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
+| TC-№ | Datum | Tester | Resultat |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.A  |  26.04.24     |     Lorenzo Lai    |    OK    |
+| 2.A  |  26.04.24     |     Simon Veljkovic     |    OK    |
+| 3.A  |  26.04.24     |     Cyril Lutziger    |    NOK    |
+| 4.A  |  26.04.24     |     Dorian Herzig    |    OK    |
+| 5.A  |  26.04.24     |     Lorenzo Lai / Cyril Lutziger     |    OK    |
+
+3.A: Wir haben mehrmals versucht und recherchiert, wie man negative und Kommazahlen konvertieren kann, aber es ist uns nicht ganz gelungen. Wir haben es auch mit ChatGPT versucht, und es hat mehr oder weniger funktioniert, aber der Code wurde sehr lang, und wir konnten selbst nichts verstehen; deswegen haben wir ihn nicht implementiert.
 
 
 
