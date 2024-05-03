@@ -7,9 +7,9 @@ Lorenzo Lai, Cyril Lutziger, Dorian Herzig, Simon Veljkovic
 | 01.03.2024 | 0.0.0 | Wir haben noch den Auftrag 1303 vervollständigt. |
 | 08.03.2024 | 0.0.1 | Wir haben unser Projekt begonnen. |
 | 15.03.2024 | 0.1.0 | Wir haben die ersten User Stories umgesetzt. |
-| 22.03.2024 |       |                                                              |
-| 05.04.2024 |       |                                                              |
-| 26.04.2024 |       |                                                              |
+| 22.03.2024 | 0.2.5 | Wir waren heute am intensivsten am Programmieren. |
+| 05.04.2024 | 0.5.0 | Wir haben die letzten User Stories umgesetzt und übrige Fehler verbessert. |
+| 26.04.2024 | 1.0.0 | Wir haben unseren Portfolioeintrag geschrieben und somit das Projekt beendet. |
 
 ## 1 Informieren
 
@@ -28,7 +28,7 @@ Wir erstellen einen binary-converter, der es uns ermöglicht, Zahlen in Binärco
 
 | Typ | Erklärung  |
 | --- | ------------ |
-|  F  |  Für das Funktionale des Programmes                         |
+|  F  |  Für das Funktionale des Programmes                          |
 |  Q  |  Für die Qualität des Programmes                             |
 |  R  |  Randbedingungen (müssen nicht implementiert werden)         |
 
