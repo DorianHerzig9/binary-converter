@@ -68,6 +68,8 @@ Dieses Projekt dient hauptsächlich dazu, unser Wissen über Binärcodes in ein 
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  | 15.03.2024 | Lorenzo Lai | 60 Minuten | 60 Minuten |
 | 2.A  | 22.03.2024 | Simon Veljkovic | 60 Minuten | 90 Minuten |
+| 3.A  | 22.03.2024 | Cyril Lutziger  | 90 Minuten | 180 Minuten |
+| 4.A  | 05.04.2024 | Dorian Herzig   | 90 Minuten | 120 Minuten |
 
 
 ## 5 Kontrollieren
